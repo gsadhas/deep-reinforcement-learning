@@ -1,5 +1,6 @@
 # Problem statement
 We need to train an agent to navigate and collect bananas in a large square world. The environment has two types of bananas, yellow and blue. Agent is rewarded with score +1 if it collects a yellow banana, and score -1 if it collects a blue banana. The agent task is episodic.
+
 ![Problem](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
 The state space has 37 dimensions and contains agent's velocity along with ray-based perception of objects around the agent's forward direction. Agent can perform four discrete actions,
