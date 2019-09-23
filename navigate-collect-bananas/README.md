@@ -12,8 +12,9 @@ The state space has 37 dimensions and contains agent's velocity along with ray-b
 If the agent gets an average score of +13 over last 100 episodes, we will consider the environemnt is solved.
 
 # Dependencies
-We need to download the environment to run the project. This repo has source code to train the agent without real-time visualization. Please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to download the environment.
+1. We need to download the environment to run the project. This repo has source code to train the agent without real-time visualization. Please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to download the environment. Unzip the downloaded environment and keep it in the root level.
+2. Please follow the installation steps to set up Unity ML-Agents at [this link](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
+3. Python libraries and versions used in the project are availabe in requirements.txt file
 
-Unzip the downloaded environment and keep it in the root level.
 # How to run
-
+Please check Navigation.ipynb to start training your agent.
