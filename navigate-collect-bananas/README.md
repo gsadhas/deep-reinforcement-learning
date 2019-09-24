@@ -17,4 +17,4 @@ If the agent gets an average score of +13 over last 100 episodes, we will consid
 3. Python libraries and versions used in the project are availabe in [requirements.txt](requirements.txt) file
 
 # How to run
-Please check Navigation.ipynb to start training your agent.
+Please check [Navigation.ipynb](Navigation.ipynb) to start training your agent.
