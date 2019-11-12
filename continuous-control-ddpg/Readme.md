@@ -20,15 +20,15 @@ Every entry in the action vector should be a number between -1 and 1.
 
 # Solution
 This is an episodic task. We can solve the environment in one of the two ways,
-* Version 1 - Train only one agent. In order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes. In this Github repo, the environment is solved using Deep Deterministic Policy Gradients ![(DDPG)](https://arxiv.org/abs/1509.02971) algorithm.
+* Version 1 - Train only one agent. In order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes. In this Github repo, the environment is solved using Deep Deterministic Policy Gradients [(DDPG)](https://arxiv.org/abs/1509.02971) algorithm.
 
 * Version 2 - Train 20 agents in parallel (TODO)
 
 # Installation requirements
-1. This repo is built on Python 3.6 and PyTorch 0.4. Please refer ![this](https://github.com/udacity/deep-reinforcement-learning#dependencies) link to set up your environment
-2. Install the ![Unity environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
+1. This repo is built on Python 3.6 and PyTorch 0.4. Please refer [this](https://github.com/udacity/deep-reinforcement-learning#dependencies) link to set up your environment
+2. Install the [Unity environment](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 3. Clone this repo
 
 
 # How to run
-Please refer the ![Continuous_Control.ipynb](Continuous_Control.ipynb) notebook instructions to run the project
+Please refer the [Continuous_Control.ipynb](Continuous_Control.ipynb) notebook instructions to run the project
