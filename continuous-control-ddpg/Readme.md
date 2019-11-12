@@ -37,3 +37,8 @@ This is an episodic task. We can solve the environment in one of the two ways,
 
 # How to run
 Please refer the [Continuous_Control.ipynb](Continuous_Control.ipynb) notebook instructions to run the project. You need to update the UnityEnvironment() function call to read the enironment file that you downloaded from the above step #3
+
+# Future work
+* Max-out the timesteps (i.e infinite while loop) for each episode instead of using max_t=1000 timesteps
+* Experiment with other hyperparameters other than LR, batch size and noise and run hyperparameter search
+* Train multi-agents to solve the same problem (Version 2)
