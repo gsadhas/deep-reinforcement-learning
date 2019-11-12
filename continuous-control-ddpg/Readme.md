@@ -40,5 +40,5 @@ Please refer the [Continuous_Control.ipynb](Continuous_Control.ipynb) notebook i
 
 # Future work
 * Max-out the timesteps (i.e infinite while loop) for each episode instead of using max_t=1000 timesteps
-* Experiment with other hyperparameters other than LR, batch size and noise and run hyperparameter search
-* Train multi-agents to solve the same problem (Version 2)
+* Experiment with other hyperparameters other than LR, batch size and noise, and run hyperparameter search
+* Train multi-agents to solve the environment (Solution - Version 2)
