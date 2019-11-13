@@ -18,6 +18,12 @@ Every entry in the action vector should be a number between -1 and 1.
 # Solution
 This is an episodic task. We can solve the environment in one of the two ways,
 * Version 1 - Train only one agent. In order to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes. In this Github repo, the environment is solved using Deep Deterministic Policy Gradients [(DDPG)](https://arxiv.org/abs/1509.02971) algorithm.
+	* How DDPG works
+		* DPPG is an actor-critic network we use to mitigate the limitation of Deep Q Networks (DQN). DQN is not good for continuous action space
+		* It uses actor and critic networks. Actor network approximates the optimal policy to output best believed action for the given state. Critic network evaluates the optimal action value function using the best believed action from the actor network.
+		* DDPG uses two copies of network weights for both actor and critic, one for regular network and another one for target network. Both actor and critic has one regular network and one target network. We train the regular network, and use the target network for prediction to stablize the training.
+		* DDPG uses two main components, soft updates and replay buffer. Through soft updates, target network is updated with regular network weights i.e ~ 0.01% of regular network weights are blended into target networks.
+	
 * Version 2 - Train 20 agents in parallel (TODO)
 
 # Installation requirements
