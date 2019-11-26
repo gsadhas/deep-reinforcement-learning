@@ -29,5 +29,5 @@ This task is an episodic task. The environment is considered solved, when the av
 
  
  # How to run
-Please refer to [tennis_notebook.ipynb](tennis_notebook.ipynb) notebook and follow the instructions. You need to update the UnityEnvironment() function call to read the enironment file that you downloaded. The notebook also has information about the network, hyer-parameters and future work.
+Please refer to [tennis_notebook.ipynb](tennis_notebook.ipynb) notebook and follow the instructions. You need to update the UnityEnvironment() function call to read the enironment file that you downloaded. The notebook also has information about the network, hyper-parameters and future work.
  
