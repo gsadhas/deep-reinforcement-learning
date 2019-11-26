@@ -1,5 +1,6 @@
 # Problem statement
-Train an agent to play tennis. The goal of each agent is to keep the ball in play.
+Train an agent to play tennis. In this environment, two agents control rackets to bounce a ball over a net. The goal of each agent is to keep the ball in play.
+
 ![tennis](../images/tennis.png)
 
 # Environment
