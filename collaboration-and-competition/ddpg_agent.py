@@ -10,39 +10,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 
-""" 
- Experiment 1 - DIDN'T WORK
- Actor and Critic with,
- 1. FC1 400 and FC2 300
- 2. FC1 256 and FC2 128
-"""
-
-# BUFFER_SIZE = 1024  # replay buffer size
-# BATCH_SIZE = 512        # minibatch size
-# GAMMA = 0.99            # discount factor
-# TAU = 1e-3              # for soft update of target parameters
-# LR_ACTOR = 1e-4         # learning rate of the actor 
-# LR_CRITIC = 3e-4        # learning rate of the critic
-# WEIGHT_DECAY = 0        # L2 weight decay
-
-
-# LEARN_EVERY = 20        # learning timestep interval
-# LEARN_NUM   = 10        # number of learning passes
-# GRADIENT_CLIP = 1.0
-
-# # Ornstein-Uhlenbeck noise parameters
-# OU_SIGMA  = 0.2
-# OU_THETA  = 0.15
-# # Act - for epsilon in the noise process 
-# EPSILON       = 0.99      
-# EPSILON_DECAY = 1e-6
-
-
-""" 
- Experiment 2
- Actor and Critic with,
- 1. FC1 128 and FC2 128
- """
 BUFFER_SIZE = int(1e6)  # replay buffer size
 BATCH_SIZE = 128        # minibatch size
 GAMMA = 0.99            # discount factor
